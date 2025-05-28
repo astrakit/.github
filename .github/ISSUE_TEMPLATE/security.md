@@ -2,7 +2,7 @@
 name: Security Issue
 about: Report a security vulnerability
 title: "[SECURITY] "
-labels: security
+labels: SECURITY ISSUE
 assignees: ''
 ---
 
