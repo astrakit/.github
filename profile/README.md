@@ -1,5 +1,3 @@
-<img src="https://astrakit.cc/src/images/banner.png" alt="Astrakit Banner" width="700"/>
-
 # Welcome to Astrakit!
 
 Astrakit is a free and open-source chat app designed for seamless communication. Discover its features, download the app, and join our community today!
