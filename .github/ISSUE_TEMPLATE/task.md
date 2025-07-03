@@ -1,40 +1,31 @@
+---
 name: Task
-description: Use this template for actionable items that require implementation or changes.
-labels: [task, enhancement]
-body:
-  - type: input
-    id: summary
-    attributes:
-      label: Task Summary
-      description: Briefly describe what needs to be done.
-      placeholder: e.g. "Migrate from Datalix to 24Fire server"
-    validations:
-      required: true
+about: Report a problem or unexpected behavior
+title: "[TASK] "
+labels: BUG
+assignees: ''
+---
 
-  - type: textarea
-    id: details
-    attributes:
-      label: Details
-      description: Provide more context, requirements, or steps for this task.
-      placeholder: |
-        - What needs to be migrated?
-        - Any downtime expected?
-        - Specific data or configs to consider?
-    validations:
-      required: false
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline (optional)
-      placeholder: e.g. "2025-07-10"
-    validations:
-      required: false
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-  - type: input
-    id: assignees
-    attributes:
-      label: Assignees (optional)
-      placeholder: GitHub usernames
-    validations:
-      required: false
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Environment (please complete the following information):**
+- OS: [e.g. Windows, Mac, Linux]
+- Browser [e.g. Chrome, Safari]
+- Version [e.g. 22]
+
+**Additional context**
+Add any other context about the problem here.
