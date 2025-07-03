@@ -1,40 +1,18 @@
+---
 name: Task
-description: Use this template for actionable items that require implementation or changes.
-labels: [task, enhancement]
-body:
-  - type: input
-    id: summary
-    attributes:
-      label: Task Summary
-      description: Briefly describe what needs to be done.
-      placeholder: e.g. "Migrate from Datalix to 24Fire server"
-    validations:
-      required: true
+about: Create a task or to-do that needs to be done
+title: "[TASK] "
+labels: 'task'
+assignees: ''
+---
 
-  - type: textarea
-    id: details
-    attributes:
-      label: Details
-      description: Provide more context, requirements, or steps for this task.
-      placeholder: |
-        - What needs to be migrated?
-        - Any downtime expected?
-        - Specific data or configs to consider?
-    validations:
-      required: false
+**Task Description**  
+Briefly explain what the task is and what needs to be done nya~
 
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline (optional)
-      placeholder: e.g. "2025-07-10"
-    validations:
-      required: false
+**Steps to complete**  
+- [ ] Step one  
+- [ ] Step two  
+- [ ] Step three (if needed)  
 
-  - type: input
-    id: assignees
-    attributes:
-      label: Assignees (optional)
-      placeholder: GitHub usernames
-    validations:
-      required: false
+**Related info**  
+Add files, links, or notes here if helpful~ uwu
