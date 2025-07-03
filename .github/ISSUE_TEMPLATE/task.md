@@ -2,7 +2,7 @@
 name: Task
 about: Create a task or to-do that needs to be done
 title: "[TASK] "
-labels: 'task'
+labels: 'TASK'
 assignees: ''
 ---
 
