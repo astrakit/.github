@@ -1,44 +1,16 @@
+---
 name: Request
-description: Use this template to request a new feature, improvement, or option.
-labels: [request, enhancement]
-body:
-  - type: input
-    id: title
-    attributes:
-      label: Request Title
-      description: Short, descriptive title of your request.
-      placeholder: e.g. "Add cat soundpack"
-    validations:
-      required: true
+about: Suggest an idea, improvement, or feature you’d like to see
+title: "[REQUEST] "
+labels: 'request'
+assignees: ''
+---
 
-  - type: textarea
-    id: description
-    attributes:
-      label: Description
-      description: What would you like to see added or improved?
-      placeholder: |
-        - Explain the idea or feature you'd like to see.
-        - Why is it useful?
-        - Any examples or references?
-    validations:
-      required: true
+**What are you requesting?**  
+A clear and concise explanation of what you’d like to request or suggest :3
 
-  - type: checkboxes
-    id: motivation
-    attributes:
-      label: Motivation
-      description: What type of request is this?
-      options:
-        - label: New Feature
-        - label: Improvement to existing feature
-        - label: Other
-    validations:
-      required: false
+**Why is it needed?**  
+Tell us why this request is important, helpful, or paws-itively amazing~ :3c
 
-  - type: textarea
-    id: extra
-    attributes:
-      label: Extra Details (optional)
-      description: Add any screenshots, sketches, or links that help explain your request.
-    validations:
-      required: false
+**Additional info**  
+Include any helpful links, images, mockups, or examples~ meow~
