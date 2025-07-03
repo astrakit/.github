@@ -2,7 +2,7 @@
 name: Request
 about: Suggest an idea, improvement, or feature you’d like to see
 title: "[REQUEST] "
-labels: 'request'
+labels: 'REQUEST'
 assignees: ''
 ---
 
